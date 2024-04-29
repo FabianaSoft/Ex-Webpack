@@ -1,0 +1,48 @@
+body{
+    background-color: #8fbcb3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+   
+}
+.sessao{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #dfe6ed;
+    
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #c3cfd9;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #c3cfd9;
+    background-color: #8fbcb3;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6f9e96;
+}       
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
