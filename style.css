@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif; 
+}
+
 body{
     background-color: #8fbcb3;
     display:flex;
@@ -31,18 +38,33 @@ input{
 button{
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid #c3cfd9;
-    background-color: #8fbcb3;
+    border: 1px solid #788895;
+    background-color: #788895;
     color: white;
     cursor: pointer;
 }
 
-button:hover{
-    background-color: #6f9e96;
-}       
-
-div{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.resultado{
+    
+    width: 200px;
+    height: 200px;
+    background-color: #c3cfd9;
+    border: 2px solid #788895;
+    padding: 10px;
 }
+
+
+
+#resultado-divisao{
+    text-align: center; 
+    font-weight:bold;
+    font-size: 80px;
+}
+
+#nomeCompleto{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 24px;
+}
+
